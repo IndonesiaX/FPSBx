@@ -1,775 +1,727 @@
 <!DOCTYPE html>
-<!--[if lte IE 9]><html class="ie ie9 lte9" lang="en"><![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-
-<head dir="ltr">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <base href="https://www.indonesiax.co.id/">
-    <!-- 
-              This server is maintained by Rizky Ariestiyansyah
-                        Guardian of IndonesiaX
-                        rizky@indonesiax.co.id
-    *******************************************************************
-    *     _____           _                       _      __  __       *
-    *     \_   \_ __   __| | ___  _ __   ___  ___(_) __ _\ \/ /       *
-    *      / /\/ '_ \ / _` |/ _ \| '_ \ / _ \/ __| |/ _` |\  /        *
-    *   /\/ /_ | | | | (_| | (_) | | | |  __/\__ \ | (_| |/  \        *
-    *   \____/ |_| |_|\__,_|\___/|_| |_|\___||___/_|\__,_/_/\_\       *
-    *                                                                 *
-    *   This system is for the use of authorized users only Usage of  *
-    *   this system may be monitored and recorded by system personnel.*
-    *                                                                 *
-    * Anyone using this system expressly consents to such monitoring  *
-    * and is advised that if such monitoring reveals possible         *
-    * evidence of criminal activity, system personnel may provide the *
-    * evidence from such monitoring to law enforcement officials.     *
-    *                                                                 *
-    *******************************************************************
-     -->
-    <title>
+<!--[if lte IE 9]>
+<html class="ie ie9 lte9" lang="en">
+  <![endif]-->
+  <!--[if !IE]><!-->
+  <html lang="en">
+    <!--<![endif]-->
+    <head dir="ltr">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- 
+        This server is maintained by Rizky Ariestiyansyah
+                  Guardian of IndonesiaX
+                  rizky@indonesiax.co.id
+        *******************************************************************
+        *     _____           _                       _      __  __       *
+        *     \_   \_ __   __| | ___  _ __   ___  ___(_) __ _\ \/ /       *
+        *      / /\/ '_ \ / _` |/ _ \| '_ \ / _ \/ __| |/ _` |\  /        *
+        *   /\/ /_ | | | | (_| | (_) | | | |  __/\__ \ | (_| |/  \        *
+        *   \____/ |_| |_|\__,_|\___/|_| |_|\___||___/_|\__,_/_/\_\       *
+        *                                                                 *
+        *   This system is for the use of authorized users only Usage of  *
+        *   this system may be monitored and recorded by system personnel.*
+        *                                                                 *
+        * Anyone using this system expressly consents to such monitoring  *
+        * and is advised that if such monitoring reveals possible         *
+        * evidence of criminal activity, system personnel may provide the *
+        * evidence from such monitoring to law enforcement officials.     *
+        *                                                                 *
+        *******************************************************************
+        -->
+      <title>
         | IndonesiaX
-    </title>
-    <script type="text/javascript">
-    /* immediately break out of an iframe if coming from the marketing website */
-    (function(window) {
-        if (window.location !== window.top.location) {
+      </title>
+      <base href="https://www.indonesiax.co.id">
+      <script type="text/javascript">
+        /* immediately break out of an iframe if coming from the marketing website */
+        (function(window) {
+          if (window.location !== window.top.location) {
             window.top.location = window.location;
-        }
-    })(this);
-    </script>
-    <script type="text/javascript" src="/static/js/i18n/en/djangojs.b28203373cc1.js"></script>
-    <link rel="icon" type="image/x-icon" href="/static/bunchosia-armeniaca/images/favicon.c8ee4bb661b2.ico" />
-    <link href="/static/bunchosia-armeniaca/css/lms-style-vendor.a0d47e130e81.css" rel="stylesheet" type="text/css" />
-    <link href="/static/bunchosia-armeniaca/css/lms-main-v1.cce4e38353ca.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="/static/bunchosia-armeniaca/js/lms-main_vendor.46d6a8c02600.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/static/bunchosia-armeniaca/js/lms-application.c4f05cb3b364.js" charset="utf-8"></script>
-    <script>
-    window.baseUrl = "/static/";
-    (function(require) {
-        require.config({
-            baseUrl: window.baseUrl
-        });
-    }).call(this, require || RequireJS.require);
-    </script>
-    <script type="text/javascript" src="/static/lms/js/require-config.667a9b347d82.js"></script>
-    <script type="text/javascript">
-    (function(require) {
-        require.config({
-            paths: {
+          }
+        })(this);
+      </script>
+      <script type="text/javascript" src="/static/js/i18n/en/djangojs.b28203373cc1.js"></script>
+      <link rel="icon" type="image/x-icon" href="/static/bunchosia-armeniaca/images/favicon.c8ee4bb661b2.ico" />
+      <link href="/static/bunchosia-armeniaca/css/lms-style-vendor.a0d47e130e81.css" rel="stylesheet" type="text/css" />
+      <link href="/static/bunchosia-armeniaca/css/lms-main-v1.fbfeb74fa980.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="/static/bunchosia-armeniaca/js/lms-main_vendor.46d6a8c02600.js" charset="utf-8"></script>
+      <script type="text/javascript" src="/static/bunchosia-armeniaca/js/lms-application.c4f05cb3b364.js" charset="utf-8"></script>
+      <script>
+        window.baseUrl = "/static/";
+        (function (require) {
+          require.config({
+              baseUrl: window.baseUrl
+          });
+        }).call(this, require || RequireJS.require);
+      </script>
+      <script type="text/javascript" src="/static/lms/js/require-config.667a9b347d82.js"></script>
+      <script type="text/javascript">
+        (function (require) {
+          require.config({
+              paths: {
                 'js/courseware/courseware_factory': 'js/courseware/courseware_factory.79c507070080',
-                'draggabilly': 'js/vendor/draggabilly.26caba6f7187',
-                'js/courseware/toggle_element_visibility': 'js/courseware/toggle_element_visibility.e564e0ed228c',
-                'js/courseware/course_home_events': 'js/courseware/course_home_events.4e8915731e7d',
-                'js/courseware/link_clicked_events': 'js/courseware/link_clicked_events',
-                'edxicons': 'edx-pattern-library/js/edx-icons.a9ab01bc44bf',
-                'moment': 'js/vendor/moment-with-locales.min.cf6d65fe3e48',
-                'js/student_profile/views/learner_profile_factory': 'js/student_profile/views/learner_profile_factory.a37af816bdc9',
-                'jquery.url': 'js/vendor/url.min.0098a9ff3d53',
-                'js/student_account/logistration_factory': 'js/student_account/logistration_factory.f3eba77aab43',
-                'js/groups/views/cohorts_dashboard_factory': 'js/groups/views/cohorts_dashboard_factory.65bc243bc330',
-                'afontgarde': 'edx-pattern-library/js/afontgarde.f6413e623704',
-                'js/courseware/accordion_events': 'js/courseware/accordion_events.1bf82c871285',
-                'js/bookmarks/views/bookmark_button': 'js/bookmarks/views/bookmark_button.f9d16d58a9d8',
-                'js/views/message_banner': 'js/views/message_banner.13d853dc7834'
+        'draggabilly': 'js/vendor/draggabilly.26caba6f7187',
+        'js/courseware/toggle_element_visibility': 'js/courseware/toggle_element_visibility.e564e0ed228c',
+        'js/courseware/course_home_events': 'js/courseware/course_home_events.4e8915731e7d',
+        'js/courseware/link_clicked_events': 'js/courseware/link_clicked_events',
+        'edxicons': 'edx-pattern-library/js/edx-icons.a9ab01bc44bf',
+        'moment': 'js/vendor/moment-with-locales.min.cf6d65fe3e48',
+        'js/student_profile/views/learner_profile_factory': 'js/student_profile/views/learner_profile_factory.a37af816bdc9',
+        'jquery.url': 'js/vendor/url.min.0098a9ff3d53',
+        'js/student_account/logistration_factory': 'js/student_account/logistration_factory.f3eba77aab43',
+        'js/groups/views/cohorts_dashboard_factory': 'js/groups/views/cohorts_dashboard_factory.65bc243bc330',
+        'afontgarde': 'edx-pattern-library/js/afontgarde.f6413e623704',
+        'js/courseware/accordion_events': 'js/courseware/accordion_events.1bf82c871285',
+        'js/bookmarks/views/bookmark_button': 'js/bookmarks/views/bookmark_button.f9d16d58a9d8',
+        'js/views/message_banner': 'js/views/message_banner.13d853dc7834'
             }
-        });
-    }).call(this, require || RequireJS.require);
-    </script>
-    <script type="text/javascript" src="/static/bunchosia-armeniaca/js/lms-modules.47eeba5c2874.js" charset="utf-8"></script>
-    <!-- dummy Segment -->
-    <script type="text/javascript">
-    var analytics = {
-        track: function() {
-            return;
-        },
-        trackLink: function() {
-            return;
-        },
-        pageview: function() {
-            return;
-        },
-        page: function() {
-            return;
-        }
-    };
-    </script>
-    <!-- end dummy Segment -->
-    <meta name="path_prefix" content="">
-    <meta name="google-site-verification" content="_mipQ4AtZQDNmbtOkwehQDOgCxUUV2fb_C0b6wbiRHY" />
-
-</head>
-
-<body class="ltr  lang_en">
-    <div id="page-prompt"></div>
-    <div class="window-wrap" dir="ltr">
+          });
+        }).call(this, require || RequireJS.require);
+      </script>
+      <script type="text/javascript" src="/static/bunchosia-armeniaca/js/lms-modules.47eeba5c2874.js" charset="utf-8"></script>
+      <!-- dummy Segment -->
+      <script type="text/javascript">
+        var analytics = {
+          track: function() { return; },
+          trackLink: function() { return; },
+          pageview: function() { return; },
+          page: function() { return; }
+        };
+      </script>
+      <!-- end dummy Segment -->
+      <meta name="path_prefix" content="">
+      <meta name="google-site-verification" content="_mipQ4AtZQDNmbtOkwehQDOgCxUUV2fb_C0b6wbiRHY" />
+    </head>
+    <body class="ltr  lang_en">
+      <div id="page-prompt"></div>
+      <div class="window-wrap" dir="ltr">
         <a class="nav-skip" href="#main">Skip to main content</a>
-        <header id="global-navigation" class="ix header-global ">
-            <nav class="wrapper-header" aria-label="Global">
-                <h1 class="logo">
-      <a href="/">
-        
-          <img class="img-logo" src="/static/bunchosia-armeniaca/images/logo-indonesiax.6bdcd9bebf96.png" height="50" alt="IndonesiaX Home Page" />
-        
-      </a>
-    </h1>
-                <div id="menuTop" class="menu-wrap">
-                    <ol class="left list-inline nav-global">
-                        <!-- Custom menu -->
-                        <li class="nav-global-04">
-                            <a href="/mulai-belajar">Mulai Belajar <i class="ion-arrow-down-b"></i></a>
-                            <div class="megacontent">
-                                <h3 class="megacontent-title">Langkah Mudah Belajar di IndonesiaX</h3>
-                                <div class="menu-steps-belajar">
-                                    <ol class="steps">
-                                        <li class="steps-item">
-                                            <img src="/static/bunchosia-armeniaca/images/ico-daftar.9dbdfdab098a.png" alt="icon-steps">
-                                            <h4>Daftarkan diri Anda</h4>
-                                            <p>Proses pendaftaran mudah bagi siapa saja di mana saja. Daftar dan buat akun pribadi Anda dengan melengkapi informasi data diri. Bahkan ada pilihan satu klik menggunakan akun Facebook atau Google Anda.</p>
-                                        </li>
-                                        <li class="steps-item">
-                                            <img src="/static/bunchosia-armeniaca/images/ico-pilih.6c72fc03fcf9.png" alt="icon-steps">
-                                            <h4>Pilih kursus yang Anda minati</h4>
-                                            <p>Kursus IndonesiaX disampaikan oleh berbagai Universitas dan Institusi terbaik. Anda dapat memilih kursus sesuai dengan bidang, ketertarikan atau tujuan Anda.</p>
-                                        </li>
-                                        <li class="steps-item">
-                                            <img src="/static/bunchosia-armeniaca/images/ico-test.16430cbc232f.png" alt="icon-steps">
-                                            <h4>Ikuti tes mingguan dan ujian akhir</h4>
-                                            <p>Setelah Anda mengikuti kursus melalui video atau transkrip setiap minggunya, Anda berkesempatan mengikuti tes mingguan dan ujian akhir untuk memperkuat wawasan Anda. Jangan lupa bahkan ada opsional sertifikat terverifikasi untuk meningkatkan CV Anda.
-                                            </p>
-                                        </li>
-                                    </ol>
-                                    <a class="see-more ix-btn ix-btn-brand" href="/mulai-belajar">Pelajari lebih lanjut</a>
-                                </div>
-                            </div>
+        <header id="global-navigation" class="ix header-global " >
+          <nav class="wrapper-header" aria-label="Global">
+            <h1 class="logo">
+              <a href="/">
+              <img class="img-logo" src="/static/bunchosia-armeniaca/images/logo-indonesiax.6bdcd9bebf96.png" height="50" alt="IndonesiaX Home Page" />
+              </a>
+            </h1>
+            <div id="menuTop" class="menu-wrap">
+              <ol class="left list-inline nav-global">
+                <!-- Custom menu -->
+                <li class="nav-global-04">
+                  <a href="/mulai-belajar">Mulai Belajar <i class="ion-arrow-down-b"></i></a>
+                  <div class="megacontent">
+                    <h3 class="megacontent-title">Langkah Mudah Belajar di IndonesiaX</h3>
+                    <div class="menu-steps-belajar">
+                      <ol class="steps">
+                        <li class="steps-item">
+                          <img src="/static/bunchosia-armeniaca/images/ico-daftar.9dbdfdab098a.png" alt="icon-steps">
+                          <h4>Daftarkan diri Anda</h4>
+                          <p>Proses pendaftaran mudah bagi siapa saja di mana saja. Daftar dan buat akun pribadi Anda dengan melengkapi informasi data diri. Bahkan ada pilihan satu klik menggunakan akun Facebook atau Google Anda.</p>
                         </li>
-                        <li class="nav-global-04">
-                            <a href="/courses">Kursus dan Mitra <i class="ion-arrow-down-b"></i></a>
-                            <div class="megacontent">
-                                <h3 class="megacontent-title">Kategori Kursus dan Mitra Kami</h3>
-                                <div class="menu-kursus-mitra">
-                                    <div class="kursus-wrap">
-                                        <h4>Kategori Kursus</h4>
-                                        <h5><a href="/courses">Akademis</a></h5>
-                                        <p>Seluruh kursus IndonesiaX dikembangkan dan diadaptasi menggunakan materi belajar yang juga diterapkan dalam program-program bergelar di universitas, serta dari program training perusahaan. Anda memiliki akses untuk belajar dari para profesor universitas ternama dan pakar perusahaan!</p>
-                                        <h5><a href="/courses">Kemampuan Terapan</a></h5>
-                                        <p>Selain menyajikan kursus dengan konten akademis yang kental, IndonesiaX juga menawarkan kursus-kursus kemampuan terapan yang dapat memperkaya hidup Anda melalui pengalaman belajar yang unik. Andalah yang menentukan topik belajar yang Anda inginkan!</p>
-                                        <a href="/courses" class="see-more ix-btn ix-btn-brand">Semua kursus</a>
-                                    </div>
-                                    <div class="mitra-wrap">
-                                        <h4>Mitra Kami</h4>
-                                        <p>IndonesiaX menawarkan beragam kursus dari universitas-universitas terbaik dan perusahaan-perusahaan ternama di Indonesia. Mereka merupakan institusi-institusi dengan reputasi unggul serta memiliki komitmen untuk menyebarluaskan ilmu pengetahuan bagi seluruh masyarakat Indonesia.</p>
-                                        <a href="/partners" class="see-more ix-btn ix-btn-brand">Semua mitra</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <li class="steps-item">
+                          <img src="/static/bunchosia-armeniaca/images/ico-pilih.6c72fc03fcf9.png" alt="icon-steps">
+                          <h4>Pilih kursus yang Anda minati</h4>
+                          <p>Kursus IndonesiaX disampaikan oleh berbagai Universitas dan Institusi terbaik. Anda dapat memilih kursus sesuai dengan bidang, ketertarikan atau tujuan Anda.</p>
                         </li>
-                        <li class="nav-global-04">
-                            <a href="/about">Tentang IndonesiaX <i class="ion-arrow-down-b"></i></a>
-                            <div class="megacontent">
-                                <h3 class="megacontent-title">Menawarkan Kursus Terbaik untuk Indonesia</h3>
-                                <div class="menu-about">
-                                    <div class="about-text">
-                                        <p>
-                                            IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open Online Course (MOOC). IndonesiaX menawarkan berbagai topik program studi online menarik dari dosen perguruan tinggi terbaik serta manajemen eksekutif perusahaan ternama baik di dalam maupun luar negeri.
-                                        </p>
-                                        <a class="see-more ix-btn ix-btn-brand" href="/about">Pelajari lebih lanjut</a>
-                                    </div>
-                                    <div class="about-video" id="about_video">
-                                        <img src="/static/bunchosia-armeniaca/images/thumbs-video-profile.507105f62970.jpg" alt="video-profile">
-                                    </div>
-                                </div>
-                            </div>
+                        <li class="steps-item">
+                          <img src="/static/bunchosia-armeniaca/images/ico-test.16430cbc232f.png" alt="icon-steps">
+                          <h4>Ikuti tes mingguan dan ujian akhir</h4>
+                          <p>Setelah Anda mengikuti kursus melalui video atau transkrip setiap minggunya, Anda berkesempatan mengikuti tes mingguan dan ujian akhir untuk memperkuat wawasan Anda. Jangan lupa bahkan ada opsional sertifikat terverifikasi untuk meningkatkan CV Anda.
+                          </p>
                         </li>
-                    </ol>
-                    <ol class="right nav-courseware list-inline">
-                        <li class="item nav-courseware-01">
-                            <a class="ix-btn" href="/login">Sign in</a>
-                        </li>
-                        <!-- Add register btn -->
-                        <li class="item nav-courseware-01">
-                            <a class="ix-btn ix-btn-brand" href="/register">Register</a>
-                        </li>
-                    </ol>
-                </div>
-                <!-- ./#menuTop -->
-                <!-- Mobile menu -->
-                <div id="toggleMenu" class="menu-mobile">
-                    <i class="ion-navicon"></i>
-                </div>
-            </nav>
+                      </ol>
+                      <a class="see-more ix-btn ix-btn-brand" href="/mulai-belajar">Pelajari lebih lanjut</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-global-04">
+                  <a href="/courses">Kursus dan Mitra <i class="ion-arrow-down-b"></i></a>
+                  <div class="megacontent">
+                    <h3 class="megacontent-title">Kategori Kursus dan Mitra Kami</h3>
+                    <div class="menu-kursus-mitra">
+                      <div class="kursus-wrap">
+                        <h4>Kategori Kursus</h4>
+                        <h5><a href="/courses">Akademis</a></h5>
+                        <p>Seluruh kursus IndonesiaX dikembangkan dan diadaptasi menggunakan materi belajar yang juga diterapkan dalam program-program bergelar di universitas, serta dari program training perusahaan. Anda memiliki akses untuk belajar dari para profesor universitas ternama dan pakar perusahaan!</p>
+                        <h5><a href="/courses">Kemampuan Terapan</a></h5>
+                        <p>Selain menyajikan kursus dengan konten akademis yang kental, IndonesiaX juga menawarkan kursus-kursus kemampuan terapan yang dapat memperkaya hidup Anda melalui pengalaman belajar yang unik. Andalah yang menentukan topik belajar yang Anda inginkan!</p>
+                        <a href="/courses" class="see-more ix-btn ix-btn-brand">Semua kursus</a>
+                      </div>
+                      <div class="mitra-wrap">
+                        <h4>Mitra Kami</h4>
+                        <p>IndonesiaX menawarkan beragam kursus dari universitas-universitas terbaik dan perusahaan-perusahaan ternama di Indonesia. Mereka merupakan institusi-institusi dengan reputasi unggul serta memiliki komitmen untuk menyebarluaskan ilmu pengetahuan bagi seluruh masyarakat Indonesia.</p>
+                        <a href="/partners" class="see-more ix-btn ix-btn-brand">Semua mitra</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-global-04">
+                  <a href="/about">Tentang IndonesiaX <i class="ion-arrow-down-b"></i></a>
+                  <div class="megacontent">
+                    <h3 class="megacontent-title">Menawarkan Kursus Terbaik untuk Indonesia</h3>
+                    <div class="menu-about">
+                      <div class="about-text">
+                        <p>
+                          IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open Online Course (MOOC). IndonesiaX menawarkan berbagai topik program studi online menarik dari dosen perguruan tinggi terbaik serta manajemen eksekutif perusahaan ternama baik di dalam maupun luar negeri.
+                        </p>
+                        <a class="see-more ix-btn ix-btn-brand" href="/about">Pelajari lebih lanjut</a>
+                      </div>
+                      <div class="about-video" id="about_video">
+                        <img src="/static/bunchosia-armeniaca/images/thumbs-video-profile.507105f62970.jpg" alt="video-profile">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+              <ol class="right nav-courseware list-inline">
+                <li class="item nav-courseware-01">
+                  <a class="ix-btn" href="/login">Sign in</a>
+                </li>
+                <!-- Add register btn -->
+                <li class="item nav-courseware-01">
+                  <a class="ix-btn ix-btn-brand" href="/register">Register</a>
+                </li>
+              </ol>
+            </div>
+            <!-- ./#menuTop -->
+            <!-- Mobile menu -->
+            <div id="toggleMenu" class="menu-mobile">
+              <i class="ion-navicon"></i>
+            </div>
+          </nav>
         </header>
         <div class="content-wrapper" id="content">
-            <section class="home">
-                <header>
-                    <div class="outer-wrapper">
-                        <div class="hero-right title">
-                            <hgroup>
-                                <h1>Ikuti berbagai kursus online gratis dari universitas dan institusi terbaik untuk menunjang karir Anda!</h1>
-                                <a href="/courses" class="ix-btn ix-btn-brand">Lihat Kursus</a>
-                            </hgroup>
+          <section class="home">
+            <section class="hero">
+              <div class="h-carousel js-h-carousel">
+                <div class="h-carousel-item hero--ix">
+                  <div class="hero-content">
+                    <div class="hero-content__inner">
+                      <div class="hero-content__col--right">
+                        <div class="hero-content__col--inner">
+                          <h2>Ikuti berbagai kursus online gratis dari universitas dan institusi terbaik untuk menunjang karir Anda!</h2>
+                          <a class="ix-btn ix-btn-brand" href="/courses">Lihat Kursus</a>
                         </div>
-                        <div class="hero-left">
-                            <img class="hero-img" src="/static/bunchosia-armeniaca/images/people.e9b5c8f1ad67.png" alt="image-hero">
+                      </div>
+                      <div class="hero-content__col--left">
+                        <div class="hero-content__col--inner">
+                          <img src="/static/bunchosia-armeniaca/images/slides/hero-ix-people.e9b5c8f1ad67.png" alt="people">
                         </div>
+                      </div>
                     </div>
-                </header>
-                <!--
-                <section class="partners-section">
-                    <div class="partners-title">
-                        <h3>
-        Kampus &amp; <span class="partners-title--big">Institusi</span>
-      </h3>
+                  </div>
+                </div>
+                <div class="h-carousel-item hero--fpsb">
+                  <div class="hero-content">
+                    <div class="hero-content__inner">
+                      <div class="hero-content__col--left">
+                        <div class="hero-content__col--inner">
+                          <img src="/static/bunchosia-armeniaca/images/slides/hero-fpsb-home.bd3f2d063836.png" alt="home">
+                        </div>
+                      </div>
+                      <div class="hero-content__col--right">
+                        <div class="hero-content__col--inner">
+                          <img src="/static/bunchosia-armeniaca/images/slides/hero-fpsb-logo.e747c26194e9.png" alt="fpsb-logo">
+                          <h2>Ikuti Kursus Online di IndonesiaX dan Raih Poin CPD Anda!</h2>
+                          <a class="fpsb-btn" href="/faq#tentang-cpd">Baca Selengkapnya</a>
+                        </div>
+                      </div>
                     </div>
-                    <ul class="partners" id="partners">
-                        <li>
-                            <a href="http://www.ui.ac.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/ui.9534a2349d42.png" alt="Universitas Indonesia">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.itb.ac.id/en/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/itb.20bb03b86256.png" alt="Institut Teknologi Bandung">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.rumahperubahan.co.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/rp.3a55dfa12b03.png" alt="Rumah Perubahan">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.idx.co.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/idx.0d7f3729bc5e.png" alt="Bursa Efek Indonesia">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.netmedia.co.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/net.a76523aa0605.png" alt="NET TV">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.edx.org/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/edx.0d519a42ef00.png" alt="edX">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://harvardx.harvard.edu/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/harvardx.4d47949fe875.png" alt="HarvardX">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.ut.ac.id/en" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/ut.2c68dbcde509.png" alt="Universitas Terbuka">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.unair.ac.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/ua.58075d9bdbe2.png" alt="Universitas Airlangga">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.unpad.ac.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/unpad.8eb54a3dac05.png" alt="Universitas Padjajaran">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.its.ac.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/its.f2188e481503.png" alt="Institut Teknologi Sepuluh Nopember">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://superpro.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/superpro.92fb2e241bf5.png" alt="SuperPro">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.agungconcern.co.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/agung-concern.0bd5b2de2a1a.jpg" alt="Agung Concern">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.ugm.ac.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/ugm.d7f8ca377fc2.png" alt="Universitas Gadjah Mada">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.bni.co.id/" target="_blank">
-                                <img src="/static/bunchosia-armeniaca/images/bni.9991f9710926.jpg" alt="BNI">
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                -->
-                <div class="courses-bg">
-                    <section class="courses-container">
-                        <section class="highlighted-courses">
-                            <section class="title">
-                                <h3>Kursus</h3>
-                            </section>
-                            <section class="courses">
-                                <ul class="courses-listing">
-            <li class="courses-listing-item">
-<article class="course" id="course-v1:BursaEfekIndonesia+BEI101+2017_Run7" role="region" aria-label="Introduction to Stock Exchange">
-  <a href="/courses/course-v1:BursaEfekIndonesia+BEI101+2017_Run7/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:BursaEfekIndonesia+BEI101+2017_Run7+type@asset+block@asset-v1-BursaEfekIndonesia_BEI101_2017_Run7_type_asset_block_Bursa-efek-indonesia-IndonesiaX.jpg" alt="Introduction to Stock Exchange BEI101" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">BursaEfekIndonesia</span>
-        <span class="course-code">BEI101</span>
-        <span class="course-title">Introduction to Stock Exchange</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Feb 14, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>BursaEfekIndonesia</li>
-      <li>BEI101</li>
-      <li>Starts: <time itemprop="startDate" datetime="Feb 14, 2017">Feb 14, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
-            </li>
-            <li class="courses-listing-item">
-<article class="course" id="course-v1:RumahPerubahan+RP203+2017_Run2" role="region" aria-label="The Art of Startup">
-  <a href="/courses/course-v1:RumahPerubahan+RP203+2017_Run2/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:RumahPerubahan+RP203+2017_Run2+type@asset+block@asset-v1-RumahPerubahan_RP203_2017_Run2_type_asset_block_art-of-startup-indonesiax.jpg" alt="The Art of Startup RP203" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">RumahPerubahan</span>
-        <span class="course-code">RP203</span>
-        <span class="course-title">The Art of Startup</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Feb 14, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>RumahPerubahan</li>
-      <li>RP203</li>
-      <li>Starts: <time itemprop="startDate" datetime="Feb 14, 2017">Feb 14, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
-
-            </li>
-            <li class="courses-listing-item">
-              
-
-
-
-<article class="course" id="course-v1:SuperPro+SP101+2017_Run2" role="region" aria-label="The Art of Selling">
-  <a href="/courses/course-v1:SuperPro+SP101+2017_Run2/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:SuperPro+SP101+2017_Run2+type@asset+block@asset-v1-SuperPro_SP101_2017_Run2_type_asset_block_AN_3.jpg" alt="The Art of Selling SP101" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">SuperPro</span>
-        <span class="course-code">SP101</span>
-        <span class="course-title">The Art of Selling</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Feb 14, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>SuperPro</li>
-      <li>SP101</li>
-      <li>Starts: <time itemprop="startDate" datetime="Feb 14, 2017">Feb 14, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
-
-            </li>
-            <li class="courses-listing-item">
-
-<article class="course" id="course-v1:UniversitasTerbuka+UT101+2017_Run5" role="region" aria-label="Public Speaking">
-  <a href="/courses/course-v1:UniversitasTerbuka+UT101+2017_Run5/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:UniversitasTerbuka+UT101+2017_Run5+type@asset+block@asset-v1-UniversitasTerbuka_UT101_2017_Run5_type_asset_block_public-speaking-IndonesiaX.jpg" alt="Public Speaking UT101" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">UniversitasTerbuka</span>
-        <span class="course-code">UT101</span>
-        <span class="course-title">Public Speaking</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Feb 14, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>UniversitasTerbuka</li>
-      <li>UT101</li>
-      <li>Starts: <time itemprop="startDate" datetime="Feb 14, 2017">Feb 14, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
-
-            </li>
-            <li class="courses-listing-item">
-              
-<article class="course" id="course-v1:RumahPerubahan+RP101+2017_Run6" role="region" aria-label="Change Management">
-  <a href="/courses/course-v1:RumahPerubahan+RP101+2017_Run6/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:RumahPerubahan+RP101+2017_Run6+type@asset+block@asset-v1-RumahPerubahan_RP101_2017_Run6_type_asset_block_Rhenald-Kasali-IndonesiaX.jpg" alt="Change Management RP101" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">RumahPerubahan</span>
-        <span class="course-code">RP101</span>
-        <span class="course-title">Change Management</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Mar 08, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>RumahPerubahan</li>
-      <li>RP101</li>
-      <li>Starts: <time itemprop="startDate" datetime="Mar 08, 2017">Mar 08, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
-            </li>
-            <li class="courses-listing-item">
-<article class="course" id="course-v1:RumahPerubahan+RP102+2017_Run6" role="region" aria-label="Self Driving: Are You a Driver or a Passenger?">
-  <a href="/courses/course-v1:RumahPerubahan+RP102+2017_Run6/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:RumahPerubahan+RP102+2017_Run6+type@asset+block@asset-v1-RumahPerubahan_RP102_2017_Run6_type_asset_block_self-driving-indonesiax.jpg" alt="Self Driving: Are You a Driver or a Passenger? RP102" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">RumahPerubahan</span>
-        <span class="course-code">RP102</span>
-        <span class="course-title">Self Driving: Are You a Driver or a Passenger?</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Mar 08, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>RumahPerubahan</li>
-      <li>RP102</li>
-      <li>Starts: <time itemprop="startDate" datetime="Mar 08, 2017">Mar 08, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
- </li>
-            <li class="courses-listing-item">
-<article class="course" id="course-v1:UniversitasIndonesia+UI101+2017_Run6" role="region" aria-label="Cyber Law: Rights and Obligations">
-  <a href="/courses/course-v1:UniversitasIndonesia+UI101+2017_Run6/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:UniversitasIndonesia+UI101+2017_Run6+type@asset+block@asset-v1-UniversitasIndonesia_UI101_2017_Run6_type_asset_block_cyber-law-IndonesiaX.jpg" alt="Cyber Law: Rights and Obligations UI101" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">UniversitasIndonesia</span>
-        <span class="course-code">UI101</span>
-        <span class="course-title">Cyber Law: Rights and Obligations</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Mar 08, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>UniversitasIndonesia</li>
-      <li>UI101</li>
-      <li>Starts: <time itemprop="startDate" datetime="Mar 08, 2017">Mar 08, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
-
-
-            </li>
-                        <li class="courses-listing-item">
-              
-
-
-
-<article class="course" id="course-v1:InstitutTeknologiBandung+ITB101+2017_Run5" role="region" aria-label="Information Security: Protecting Your Information in the Digital Age">
-  <a href="/courses/course-v1:InstitutTeknologiBandung+ITB101+2017_Run5/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:InstitutTeknologiBandung+ITB101+2017_Run5+type@asset+block@asset-v1-InstitutTeknologiBandung_ITB101_2017_Run5_type_asset_block_Budi-Rahardjo-IndonesiaX.jpg" alt="Information Security: Protecting Your Information in the Digital Age ITB101" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">InstitutTeknologiBandung</span>
-        <span class="course-code">ITB101</span>
-        <span class="course-title">Information Security: Protecting Your Information in the Digital Age</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Feb 14, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>InstitutTeknologiBandung</li>
-      <li>ITB101</li>
-      <li>Starts: <time itemprop="startDate" datetime="Feb 14, 2017">Feb 14, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
-
-            </li>
-            <li class="courses-listing-item">
-            
-<article class="course" id="course-v1:UniversitasIndonesia+UI202+2017_Run5" role="region" aria-label="Economic Integration: The Case of ASEAN">
-  <a href="/courses/course-v1:UniversitasIndonesia+UI202+2017_Run5/about">
-    <header class="course-image">
-      <div class="cover-image">
-        <img src="/asset-v1:UniversitasIndonesia+UI202+2017_Run5+type@asset+block@asset-v1-UniversitasIndonesia_UI202_2017_Run5_type_asset_block_economic-integration.jpg" alt="Economic Integration: The Case of ASEAN UI202" />
-        <div class="learn-more" aria-hidden="true">LEARN MORE</div>
-      </div>
-    </header>
-    <div class="course-info" aria-hidden="true">
-      <h2 class="course-name">
-        <span class="course-organization">UniversitasIndonesia</span>
-        <span class="course-code">UI202</span>
-        <span class="course-title">Economic Integration: The Case of ASEAN</span>
-      </h2>
-      <div class="course-date" aria-hidden="true">Starts: Mar 08, 2017</div>
-    </div>
-    <div class="sr">
-      <ul>
-      <li>UniversitasIndonesia</li>
-      <li>UI202</li>
-      <li>Starts: <time itemprop="startDate" datetime="Mar 08, 2017">Mar 08, 2017</time></li>
-    </ul>
-    </div>
-  </a>
-</article>
-                                    </li>
-                                </ul>
-                            </section>
-                        </section>
-                        <!--
-                        <section class="see-more">
-                            <a class="ix-btn ix-btn-brand ix-btn-small" href="/courses"> Lihat Semua Kursus </a>
-                        </section>
-                        -->
-                    </section>
+                  </div>
                 </div>
-                <!--
-                <section class="benefits-section">
-                    <section class="title">
-                        <h3>Keuntungan Belajar di IndonesiaX</h3>
-                    </section>
-                    <section class="benefits-list">
-                        <div class="benefits-item">
-                            <img src="/static/bunchosia-armeniaca/images/ico-pilih.6c72fc03fcf9.png" alt="benefits-icon">
-                            <h4>Belajar dari Universitas dan Institusi Terbaik</h4>
-                            <p>Kursus yang ditawarkan berasal dari universitas peringkat tertinggi di Indonesia dan perusahaan terbaik! Ini berarti bahan-bahan kursus adalah kualitas terbaik.</p>
-                        </div>
-                        <div class="benefits-item">
-                            <img src="/static/bunchosia-armeniaca/images/ico-belajar.b8bc3767d523.png" alt="benefits-icon">
-                            <h4>Pengalaman Belajar Kelas Dunia</h4>
-                            <p>Instruktur kursus adalah profesor terbaik dari universitas mitra kami, atau manajemen puncak dari perusahaan mitra kami.</p>
-                        </div>
-                        <div class="benefits-item">
-                            <img src="/static/bunchosia-armeniaca/images/ico-lokasi.13d08e5e5a09.png" alt="benefits-icon">
-                            <h4>Dapat Diakses Dimana Saja dan Kapan Saja</h4>
-                            <p>Semua materi kursus diakses di website kami, dan Anda memiliki pilihan untuk mendapatkan e-sertifikat jika Anda lulus tes online dan ujian.</p>
-                        </div>
-                    </section>
-                </section>
-                <div class="bg-full-section">
-                    <section class="blogs-section">
-                        <section class="kabar-section">
-                            <section class="title">
-                                <h3>Kabar Terbaru</h3>
-                            </section>
-                            <ul class="kabar-list" id="kabar_terbaru">
-                            </ul>
-                        </section>
-                        <section class="stories-section">
-                            <section class="title">
-                                <h3>Cerita Pembelajar</h3>
-                            </section>
-                            <ul class="stories-list">
-                                <li class="stories-item">
-                                    <a href="http://blog.indonesiax.co.id/blog/learner-stories-saeful-hidayat/" target="_blank">
-                                        <img class="stories-thumb" src="/static/bunchosia-armeniaca/images/ls-saeful.c62283277839.jpg" alt="thumbnails">
-                                        <h5 class="stories-title">#LearnerStories: Saeful Hidayat</h5>
-                                    </a>
-                                </li>
-                                <li class="stories-item last">
-                                    <a href="http://blog.indonesiax.co.id/blog/learner-stories-soerjo-winarto/" target="_blank">
-                                        <img class="stories-thumb" src="/static/bunchosia-armeniaca/images/ls-soerjo-winarto.a74c2d45841e.jpg" alt="thumbnails">
-                                        <h5 class="stories-title">#LearnerStories: Soerjo Winarto, Direktur Supply Chain di Johnson &amp; Johnson, Indonesia</h5>
-                                    </a>
-                                </li>
-                            </ul>
-                            <a href="http://blog.indonesiax.co.id/learner-stories/" target="_blank">Lihat semua cerita <i class="ion-ios-arrow-right"></i></a>
-                        </section>
-                    </section>
-                </div>
-                -->
+              </div>
             </section>
+            <section class="partners-section">
+              <div class="partners-title">
+                <h3>
+                  Kampus &amp; <span class="partners-title--big">Institusi</span>
+                </h3>
+              </div>
+              <ul class="partners" id="partners">
+                <li>
+                  <a href="http://www.ui.ac.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/ui.9534a2349d42.png" alt="Universitas Indonesia">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.itb.ac.id/en/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/itb.20bb03b86256.png" alt="Institut Teknologi Bandung">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.rumahperubahan.co.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/rp.3a55dfa12b03.png" alt="Rumah Perubahan">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.idx.co.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/idx.0d7f3729bc5e.png" alt="Bursa Efek Indonesia">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.netmedia.co.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/net.a76523aa0605.png" alt="NET TV">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.edx.org/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/edx.0d519a42ef00.png" alt="edX">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://harvardx.harvard.edu/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/harvardx.4d47949fe875.png" alt="HarvardX">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.ut.ac.id/en" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/ut.2c68dbcde509.png" alt="Universitas Terbuka">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.unair.ac.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/ua.58075d9bdbe2.png" alt="Universitas Airlangga">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.unpad.ac.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/unpad.8eb54a3dac05.png" alt="Universitas Padjajaran">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.its.ac.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/its.f2188e481503.png" alt="Institut Teknologi Sepuluh Nopember">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://superpro.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/superpro.92fb2e241bf5.png" alt="SuperPro">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.agungconcern.co.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/agung-concern.0bd5b2de2a1a.jpg" alt="Agung Concern">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.ugm.ac.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/ugm.d7f8ca377fc2.png" alt="Universitas Gadjah Mada">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.bni.co.id/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/bni.9991f9710926.jpg" alt="BNI">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.fpsbindonesia.net/" target="_blank">
+                  <img src="/static/bunchosia-armeniaca/images/fpsb.7ba70ee38585.jpg" alt="FPSB Indonesia">
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <div class="courses-bg">
+              <section class="courses-container">
+                <section class="highlighted-courses">
+                  <section class="title">
+                    <h3>Kursus</h3>
+                  </section>
+                  <section class="courses">
+                    <ul class="courses-listing">
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:BursaEfekIndonesia+BEI101+2017_Run9" role="region" aria-label="Introduction to Stock Exchange">
+                          <a href="/courses/course-v1:BursaEfekIndonesia+BEI101+2017_Run9/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:BursaEfekIndonesia+BEI101+2017_Run9+type@asset+block@asset-v1-BursaEfekIndonesia_BEI101_2017_Run7_type_asset_block_Bursa-efek-indonesia-IndonesiaX.jpg" alt="Introduction to Stock Exchange BEI101">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">BursaEfekIndonesia</span>
+                                <span class="course-code">BEI101</span>
+                                <span class="course-title">Introduction to Stock Exchange</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1493053200000">Starts: Apr 25, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>BursaEfekIndonesia</li>
+                                <li>BEI101</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Apr 25, 2017">Apr 25, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:InstitutTeknologiBandung+ITB101+2017_Run7" role="region" aria-label="Information Security: Protecting Your Information in the Digital Age">
+                          <a href="/courses/course-v1:InstitutTeknologiBandung+ITB101+2017_Run7/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:InstitutTeknologiBandung+ITB101+2017_Run7+type@asset+block@asset-v1-InstitutTeknologiBandung_ITB101_2017_Run5_type_asset_block_Budi-Rahardjo-IndonesiaX.jpg" alt="Information Security: Protecting Your Information in the Digital Age ITB101">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">InstitutTeknologiBandung</span>
+                                <span class="course-code">ITB101</span>
+                                <span class="course-title">Information Security: Protecting Your Information in the Digital Age</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1493053200000">Starts: Apr 25, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>InstitutTeknologiBandung</li>
+                                <li>ITB101</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Apr 25, 2017">Apr 25, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:RumahPerubahan+RP101+2017_Run6" role="region" aria-label="Change Management">
+                          <a href="/courses/course-v1:RumahPerubahan+RP101+2017_Run6/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:RumahPerubahan+RP101+2017_Run6+type@asset+block@asset-v1-RumahPerubahan_RP101_2017_Run6_type_asset_block_Rhenald-Kasali-IndonesiaX.jpg" alt="Change Management RP101">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">RumahPerubahan</span>
+                                <span class="course-code">RP101</span>
+                                <span class="course-title">Change Management</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1488906000000">Starts: Mar 08, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>RumahPerubahan</li>
+                                <li>RP101</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Mar 08, 2017">Mar 08, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:RumahPerubahan+RP102+2017_Run7" role="region" aria-label="Self Driving: Are You a Driver or a Passenger?">
+                          <a href="/courses/course-v1:RumahPerubahan+RP102+2017_Run7/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:RumahPerubahan+RP102+2017_Run7+type@asset+block@asset-v1-RumahPerubahan_RP102_2017_Run6_type_asset_block_self-driving-indonesiax.jpg" alt="Self Driving: Are You a Driver or a Passenger? RP102">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">RumahPerubahan</span>
+                                <span class="course-code">RP102</span>
+                                <span class="course-title">Self Driving: Are You a Driver or a Passenger?</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1493053200000">Starts: Apr 25, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>RumahPerubahan</li>
+                                <li>RP102</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Apr 25, 2017">Apr 25, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:RumahPerubahan+RP203+2017_Run3" role="region" aria-label="The Art of Startup">
+                          <a href="/courses/course-v1:RumahPerubahan+RP203+2017_Run3/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:RumahPerubahan+RP203+2017_Run3+type@asset+block@asset-v1-RumahPerubahan_RP203_2017_Run2_type_asset_block_art-of-startup-indonesiax.jpg" alt="The Art of Startup RP203">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">RumahPerubahan</span>
+                                <span class="course-code">RP203</span>
+                                <span class="course-title">The Art of Startup</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1491152400000">Starts: Apr 03, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>RumahPerubahan</li>
+                                <li>RP203</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Apr 03, 2017">Apr 03, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:SuperPro+SP101+2017_Run3" role="region" aria-label="The Art of Selling">
+                          <a href="/courses/course-v1:SuperPro+SP101+2017_Run3/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:SuperPro+SP101+2017_Run3+type@asset+block@asset-v1-SuperPro_SP101_2017_Run2_type_asset_block_AN_3.jpg" alt="The Art of Selling SP101">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">SuperPro</span>
+                                <span class="course-code">SP101</span>
+                                <span class="course-title">The Art of Selling</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1490547600000">Starts: Mar 27, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>SuperPro</li>
+                                <li>SP101</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Mar 27, 2017">Mar 27, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:UniversitasIndonesia+UI101+2017_Run6" role="region" aria-label="Cyber Law: Rights and Obligations">
+                          <a href="/courses/course-v1:UniversitasIndonesia+UI101+2017_Run6/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:UniversitasIndonesia+UI101+2017_Run6+type@asset+block@asset-v1-UniversitasIndonesia_UI101_2017_Run6_type_asset_block_cyber-law-IndonesiaX.jpg" alt="Cyber Law: Rights and Obligations UI101">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">UniversitasIndonesia</span>
+                                <span class="course-code">UI101</span>
+                                <span class="course-title">Cyber Law: Rights and Obligations</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1488906000000">Starts: Mar 08, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>UniversitasIndonesia</li>
+                                <li>UI101</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Mar 08, 2017">Mar 08, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:UniversitasIndonesia+UI202+2017_Run6" role="region" aria-label="Economic Integration: The Case of ASEAN">
+                          <a href="/courses/course-v1:UniversitasIndonesia+UI202+2017_Run6/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:UniversitasIndonesia+UI202+2017_Run6+type@asset+block@asset-v1-UniversitasIndonesia_UI202_2017_Run5_type_asset_block_economic-integration.jpg" alt="Economic Integration: The Case of ASEAN UI202">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">UniversitasIndonesia</span>
+                                <span class="course-code">UI202</span>
+                                <span class="course-title">Economic Integration: The Case of ASEAN</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1492362000000">Starts: Apr 17, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>UniversitasIndonesia</li>
+                                <li>UI202</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Apr 17, 2017">Apr 17, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                      <li class="courses-listing-item">
+                        <article class="course" id="course-v1:UniversitasTerbuka+UT101+2017_Run7" role="region" aria-label="Public Speaking">
+                          <a href="/courses/course-v1:UniversitasTerbuka+UT101+2017_Run7/about">
+                            <header class="course-image">
+                              <div class="cover-image">
+                                <img src="/asset-v1:UniversitasTerbuka+UT101+2017_Run7+type@asset+block@asset-v1-UniversitasTerbuka_UT101_2017_Run5_type_asset_block_public-speaking-IndonesiaX.jpg" alt="Public Speaking UT101">
+                                <div class="learn-more" aria-hidden="true">LEARN MORE</div>
+                              </div>
+                            </header>
+                            <div class="course-info" aria-hidden="true">
+                              <h2 class="course-name">
+                                <span class="course-organization">UniversitasTerbuka</span>
+                                <span class="course-code">UT101</span>
+                                <span class="course-title">Public Speaking</span>
+                              </h2>
+                              <div class="course-date" aria-hidden="true" data-timestamp="1493053200000">Starts: Apr 25, 2017</div>
+                            </div>
+                            <div class="sr">
+                              <ul>
+                                <li>UniversitasTerbuka</li>
+                                <li>UT101</li>
+                                <li>Starts: <time itemprop="startDate" datetime="Apr 25, 2017">Apr 25, 2017</time></li>
+                              </ul>
+                            </div>
+                          </a>
+                        </article>
+                      </li>
+                    </ul>
+                  </section>
+                </section>
+              </section>
+            </div>
+          </section>
         </div>
         <div class="wrapper-footer">
-            <div class="separator-brand">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
-            <footer>
-                <section class="footer-content">
-                    <div class="footer-left">
-                        <div class="footer-text">
-                            <a href="/"><img class="logo-footer" src="/static/bunchosia-armeniaca/images/logo-indonesiax.6bdcd9bebf96.png"></a>
-                            <p>
-                                IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open Online Course (MOOC) dari universitas dan institusi terbaik.
-                            </p>
-                            <p>
-                                Tersedia di :
-                                <br>
-                                <a href="https://itunes.apple.com/ke/app/indonesiax/id1053203885?mt=8" target='_blank' class="app-link external">
-                                    <img alt="IndonesiaX Mobile App iOS" height="40px" src="/static/bunchosia-armeniaca/images/app-store-badge.7db075ffcbf8.png">
-                                </a>
-                                <a href="https://play.google.com/store/apps/details?id=org.indonesiax.mobile" target='_blank' class="app-link external">
-                                    <img alt="IndonesiaX Mobile App Android" height="40px" src="/static/bunchosia-armeniaca/images/google-play-badge.46c023d667a4.png">
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="footer-mid">
-                        <ul class="footer-links">
-                            <li class="links-category">IndonesiaX</li>
-                            <li><a href="/about">Tentang Kami</a></li>
-                            <li><a href="/partners">Mitra</a></li>
-                            <li><a href="/instruktur">Profil Instruktur</a></li>
-                            <li><a href="/mulai-belajar">Mulai Belajar</a></li>
-                            <li><a href="//blog.indonesiax.co.id/" target="_blank">Kabar Terbaru</a></li>
-                            <li><a href="/contact">Kontak</a></li>
-                        </ul>
-                        <ul class="footer-links">
-                            <li class="links-category">Lain-lain</li>
-                            <li><a href="/faq">Pertanyaan Sering Ditanyakan</a></li>
-                            <li><a href="/karier">Karier</a></li>
-                            <li><a href="/akses">Akses untuk Semua</a></li>
-                            <li><a href="/tos">Ketentuan Layanan</a></li>
-                            <li><a href="/honor">Kode Etik</a></li>
-                            <li><a href="/privacy">Kebijakan Privasi</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-right">
-                        <div class="social-link">
-                            <a class="facebook" href='https://facebook.com/IndonesiaXNews' target='_blank'>
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="twitter" href='https://twitter.com/IndonesiaX_News' target='_blank'>
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="linkedin" href='https://www.linkedin.com/company/indonesiax' target='_blank'>
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                            <a class="youtube" href='https://www.youtube.com/channel/UCP8HRDGVnb4JsVwmpqI2R5A' target='_blank'>
-                                <i class="fa fa-youtube-square"></i>
-                            </a>
-                            <a class="instagram" href='https://instagram.com/IndonesiaX_News' target='_blank'>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img class="poweredby" src="/static/bunchosia-armeniaca/images/openedx-logo-dark.a5501877d053.png" alt="Powered by Open edX" width="140">
-                    </div>
-                </section>
-                <section class="footer-copy">
-                    <span>Hak Cipta &copy; 2017 PT Education Technology Indonesia</span>
-                </section>
-            </footer>
+          <div class="separator-brand">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <footer>
+            <section class="footer-content">
+              <div class="footer-left">
+                <div class="footer-text">
+                  <a href="/"><img class="logo-footer" src="/static/bunchosia-armeniaca/images/logo-indonesiax.6bdcd9bebf96.png"></a>
+                  <p>
+                    IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open Online Course (MOOC) dari universitas dan institusi terbaik.
+                  </p>
+                  <p>
+                    Tersedia di : <br>
+                    <a href="https://itunes.apple.com/ke/app/indonesiax/id1053203885?mt=8" target='_blank' class="app-link external">
+                    <img alt="IndonesiaX Mobile App iOS" height="40px" src="/static/bunchosia-armeniaca/images/app-store-badge.7db075ffcbf8.png">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=org.indonesiax.mobile" target='_blank' class="app-link external">
+                    <img alt="IndonesiaX Mobile App Android" height="40px" src="/static/bunchosia-armeniaca/images/google-play-badge.46c023d667a4.png">
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="footer-mid">
+                <ul class="footer-links">
+                  <li class="links-category">IndonesiaX</li>
+                  <li><a href="/about">Tentang Kami</a></li>
+                  <li><a href="/partners">Mitra</a></li>
+                  <li><a href="/instruktur">Profil Instruktur</a></li>
+                  <li><a href="/mulai-belajar">Mulai Belajar</a></li>
+                  <li><a href="//blog.indonesiax.co.id/" target="_blank">Kabar Terbaru</a></li>
+                  <li><a href="/contact">Kontak</a></li>
+                </ul>
+                <ul class="footer-links">
+                  <li class="links-category">Lain-lain</li>
+                  <li><a href="/faq">Pertanyaan Sering Ditanyakan</a></li>
+                  <li><a href="/karier">Karier</a></li>
+                  <li><a href="/akses">Akses untuk Semua</a></li>
+                  <li><a href="/tos">Ketentuan Layanan</a></li>
+                  <li><a href="/honor">Kode Etik</a></li>
+                  <li><a href="/privacy">Kebijakan Privasi</a></li>
+                </ul>
+              </div>
+              <div class="footer-right">
+                <div class="social-link">
+                  <a class="facebook" href='https://facebook.com/IndonesiaXNews' target='_blank'>
+                  <i class="fa fa-facebook-square"></i>
+                  </a>
+                  <a class="twitter" href='https://twitter.com/IndonesiaX_News' target='_blank'>
+                  <i class="fa fa-twitter-square"></i>
+                  </a>
+                  <a class="linkedin" href='https://www.linkedin.com/company/indonesiax' target='_blank'>
+                  <i class="fa fa-linkedin-square"></i>
+                  </a>
+                  <a class="youtube" href='https://www.youtube.com/channel/UCP8HRDGVnb4JsVwmpqI2R5A' target='_blank'>
+                  <i class="fa fa-youtube-square"></i>
+                  </a>
+                  <a class="instagram" href='https://instagram.com/IndonesiaX_News' target='_blank'>
+                  <i class="fa fa-instagram"></i>
+                  </a>
+                </div>
+                <img class="poweredby" src="/static/bunchosia-armeniaca/images/openedx-logo-dark.a5501877d053.png" alt="Powered by Open edX" width="140">
+              </div>
+            </section>
+            <section class="footer-copy">
+              <span>Hak Cipta &copy; 2017 PT Education Technology Indonesia</span>
+            </section>
+          </footer>
         </div>
-    </div>
-    <script type="text/javascript" src="/static/bunchosia-armeniaca/js/owl.carousel.5b14510332ba.js"></script>
-    <script type="text/javascript">
-    $(window).load(function() {
-        if (getParameterByName('next')) {
-            $('#login').trigger("click");
-        }
-    });
-
-    $("#partners").owlCarousel({
-        autoPlay: 3000,
-        items: 4,
-        itemsDesktop: [1199, 4],
-        itemsDesktopSmall: [979, 4],
-        itemsTablet: [768, 3],
-        itemsMobile: [479, 2],
-        navigation: true,
-        navigationText: false,
-        pagination: false
-    });
-
-    var content = document.getElementById('kabar_terbaru');
-
-    function showFeed(data) {
-        if (data.status == 'ok') {
-            var output = "";
-            for (var i = 0; i < 4; ++i) {
-                output += '<li class="kabar-item"><a href="' +
+      </div>
+      <script type="text/javascript" src="/static/bunchosia-armeniaca/vendors/slick-carousel/slick/slick.min.b53bdfc29e18.js"></script>
+      <script type="text/javascript" src="/static/bunchosia-armeniaca/js/owl.carousel.5b14510332ba.js"></script>
+      <script type="text/javascript">
+        $(window).load(function() {
+           if(getParameterByName('next')) {
+                $('#login').trigger("click");
+           }
+        });
+        
+        $(".js-h-carousel").slick({
+          autoplay: true,
+          autoplaySpeed: 4500,
+          dots: true,
+          arrows: false,
+          infinite: true,
+          slidesToShow: 1,
+          adaptiveHeight: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+              }
+            }
+          ]
+        });
+        
+        
+        $("#partners").owlCarousel({
+            autoPlay: 3000,
+            items: 4,
+            itemsDesktop: [1199, 4],
+            itemsDesktopSmall: [979, 4],
+            itemsTablet: [768, 3],
+            itemsMobile: [479, 2],
+            navigation: true,
+            navigationText : false,
+            pagination: false
+        });
+        
+        var content = document.getElementById('kabar_terbaru');
+        function showFeed(data){
+            if(data.status == 'ok'){
+                var output = "";
+                for(var i=0;i<4;++i){
+                    output += '<li class="kabar-item"><a href="' +
                     data.items[i].link + '" target="_blank">' +
                     '<h5 class="kabar-item-title">' +
                     data.items[i].title + '</h5></a></li>';
+                }
+                content.innerHTML = output + '<a href="http://blog.indonesiax.co.id/" target="_blank">Lihat semua kabar <i class="ion-ios-arrow-right"></i></a>';
+            } else {
+                content.innerHTML = "<li>Gagal memuat kabar terbaru.</li>";
             }
-            content.innerHTML = output + '<a href="http://blog.indonesiax.co.id/" target="_blank">Lihat semua kabar <i class="ion-ios-arrow-right"></i></a>';
-        } else {
-            content.innerHTML = "<li>Gagal memuat kabar terbaru.</li>";
         }
-    }
-    </script>
-    <script type="text/javascript" src="//rss2json.com/api.json?callback=showFeed&rss_url=https://blog.indonesiax.co.id/feed.xml"></script>
-    <script type="text/javascript" src="/static/bunchosia-armeniaca/js/jquery.yu2fvl.min.45ca079b3709.js"></script>
-    <script type="text/javascript">
-    (function($) {
-        var toggle_menu = $("#toggleMenu");
-        var menu_top = $("#menuTop");
-        toggle_menu.click(function() {
+        
+      </script>
+      <script type="text/javascript" src="//rss2json.com/api.json?callback=showFeed&rss_url=https://blog.indonesiax.co.id/feed.xml"></script>
+      <script type="text/javascript" src="/static/bunchosia-armeniaca/js/jquery.yu2fvl.min.45ca079b3709.js"></script>
+      <script type="text/javascript">
+        (function($) {
+          var toggle_menu = $("#toggleMenu");
+          var menu_top = $("#menuTop");
+          toggle_menu.click(function() {
             menu_top.toggleClass("active");
-        });
-    })(jQuery);
-    $("#about_video").yu2fvl({
-        minPaddingY: 250,
-        minPaddingX: 250,
-        vid: "U0ZCuzLYgV4",
-        ratio: 16 / 9,
-        closeText: "<i class='ion-close-round'></i>"
-    });
-    </script>
-    <script type="text/javascript" src="/static/bunchosia-armeniaca/js/city.a6879b68708e.js"></script>
-    <script type="text/javascript" src="/static/js/vendor/noreferrer.aa62a3e70ffa.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/static/js/utils/navigation.17df676f9045.js" charset="utf-8"></script>
-</body>
-
-</html>
-<!-- Performance beacon for onload times -->
+          });
+        })(jQuery);
+        $("#about_video").yu2fvl({ minPaddingY: 250, minPaddingX: 250, vid: "U0ZCuzLYgV4", ratio: 16/9, closeText: "<i class='ion-close-round'></i>" });
+      </script>
+      <script type="text/javascript" src="/static/js/vendor/noreferrer.aa62a3e70ffa.js" charset="utf-8"></script>
+      <script type="text/javascript" src="/static/js/utils/navigation.17df676f9045.js" charset="utf-8"></script>
+    </body>
+  </html>
+  <!-- Performance beacon for onload times -->
